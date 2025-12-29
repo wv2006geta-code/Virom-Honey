@@ -1,33 +1,76 @@
  <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8">
-  <title>Virom Miód</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VIROM Honey</title>
+<style>
+body { font-family: Arial, sans-serif; margin:0; background:#fff8ec; color:#333; }
+header { background:#f4a300; color:white; padding:20px; text-align:center; }
+section { padding:20px; max-width:900px; margin:auto; }
+h2 { color:#f4a300; }
+.gallery img { width:100%; max-width:280px; margin:10px; border-radius:10px; }
+.gallery { display:flex; flex-wrap:wrap; justify-content:center; }
+.buttons a {
+ display:block; margin:10px 0; padding:15px;
+ background:#25D366; color:white; text-align:center;
+ text-decoration:none; border-radius:8px; font-size:18px;
+}
+.buttons a.telegram { background:#0088cc; }
+footer { background:#333; color:white; text-align:center; padding:15px; }
+</style>
 </head>
 <body>
 
-<h1>🐝 Virom Miód</h1>
-<p>Sprzedaż naturalnego miodu prosto od dostawcy z Polski.</p>
+<header>
+<h1>🍯 VIROM Honey</h1>
+<p>Naturalny polski miód prosto od dostawcy</p>
+</header>
 
-<h2>🍯 Oferta</h2>
+<section>
+<h2>O nas</h2>
+<p>Sprzedajemy naturalny miód z polskich pasiek. Bez dodatków, bez chemii.</p>
+</section>
+
+<section>
+<h2>Galeria</h2>
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1587049352847-23c0c92a72b2" alt="miód 1">
+<img src="https://images.unsplash.com/photo-1604909053197-3c9f1a6c0b9e" alt="miód 2">
+<img src="https://images.unsplash.com/photo-1615484477912-0c4f6c8e84c7" alt="miód 3">
+</div>
+</section>
+
+<section>
+<h2>Wideo</h2>
+<iframe width="100%" height="315"
+src="https://www.youtube.com/embed/5qap5aO4i9A"
+title="Video o miodzie" frameborder="0" allowfullscreen></iframe>
+</section>
+
+<section>
+<h2>Oferta</h2>
 <ul>
-  <li>Miód naturalny</li>
-  <li>Sprzedaż detaliczna i hurtowa</li>
-  <li>Dostawa na zamówienie</li>
+<li>Miód rzepakowy</li>
+<li>Miód lipowy</li>
+<li>Miód wielokwiatowy</li>
 </ul>
+</section>
 
-<h2>📞 Zamówienie</h2>
-<p>
-  <a href="https://wa.me/48736117111">Zamów przez WhatsApp</a><br><br>
-  <a href="https://t.me/wv2006geta">Zamów przez Telegram</a>
-</p>
+<section>
+<h2>Zamówienie</h2>
+<div class="buttons">
+<a href="https://wa.me/48736117111?text=Chcę%20zamówić%20miód%20-%201+%20(detali)">
+🛒 Zamów 1+ (detal)</a>
 
-<h2>📧 Kontakt</h2>
-<p>
-  Telefon: +48 736 117 111<br>
-  Email: wv2006geta@gmail.com
-</p>
+<a class="telegram" href="https://t.me/wv2006geta">
+📦 Zamów hurt (opтowo)</a>
+</div>
+</section>
+
+<footer>
+<p>📞 +48 736 117 111 | ✉️ wv2006geta@gmail.com</p>
+</footer>
 
 </body>
 </html>
